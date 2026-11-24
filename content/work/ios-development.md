@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Swift", "IOS Development"]
 summary: "Native iOS-Entwicklung: Fokus auf Funktionalität und User Experience."
 cover: cover.jpg
-cover_alt: "Person"
+cover_alt: "App-Icons von MONO und Case, iOS Development"
 framer_url: https://girnstein-david.framer.website/work/ios-development
 ---
 
@@ -21,7 +21,7 @@ framer_url: https://girnstein-david.framer.website/work/ios-development
 
 Ich entwickle native iOS-Apps mit Swift und SwiftUI. Mein Ansatz: Konkrete Alltagsprobleme durch reduzierte Interfaces und solide Software-Architektur lösen. Statt Feature-Creep liegt mein Fokus darauf, native Apple-Frameworks effizient zu nutzen, um stabile und intuitive Anwendungen zu schaffen. _Besonderheit:_ Durch den gezielten Einsatz von AI-Assisted Coding (GPT/Claude) verkürze ich die Time-to-Market drastisch – von der ersten Produktidee zum funktionalen Prototypen in nur einem Tag.
 
-![](01.jpg)
+![Screens der iOS-Apps MONO und Case im Überblick](01.jpg)
 
 ::label Case
 
@@ -45,8 +45,8 @@ Diese wird via Widgets prominent auf dem Home- und Lockscreen platziert. Ein int
 
 **Swift Concurrency:** Nutzung moderner Concurrency-Features für reibungslose Hintergrundaktualisierungen.
 
-![](02.jpg)
-![](03.jpg)
+![MONO-App: Streak-Kalender und die wichtigste Aufgabe des Tages als Widget](02.jpg)
+![Case-App: eine Dose als Zeitkontingent für die Bildschirmzeit](03.jpg)
 
 ::label MONO
 

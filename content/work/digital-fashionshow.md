@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Clothing Design", "3D Design"]
 summary: "Ein Runway im virtuellen Raum – zwischen brutalistischer Ästhetik, 3D-Design und digitaler Ownership."
 cover: cover.jpg
-cover_alt: "3D Fashion Model"
+cover_alt: "3D-Outfit Manteau en Patchwork de Denim Urbain auf einem Glasmodel, daneben ein QR-Code zum Shop the Look"
 link: "NFT Kollektion | https://opensea.io/Girni"
 framer_url: https://girnstein-david.framer.website/work/digital-fashionshow
 ---
@@ -30,8 +30,8 @@ Die Show experimentiert mit der Frage, wie Mode im digitalen Raum funktioniert �
 
 Die Kamera bewegt sich dynamisch um die Models, begleitet den Walk durch eine fiktive Architektur. Die Models selbst bestehen aus Glas – anonym, neutral, als Projektionsfläche für das, worum es wirklich geht: die Kleidung. Jedes Outfit wird von eingeblendeten Informationen begleitet – Materialien, Titel, Idee. So entsteht eine Mischung aus Runway-Inszenierung, Katalog und digitalem Showroom.
 
-![3D Outfit](01.jpg)
-![3D Outfit](02.jpg)
+![3D-Outfit auf einem Glasmodel vor einer runden Glasskulptur](01.jpg)
+![Glasmodel läuft im 3D-Outfit durch einen Torbogen](02.jpg)
 
 ::label NFT & “Shop the Look”
 
@@ -40,7 +40,7 @@ Die Kamera bewegt sich dynamisch um die Models, begleitet den Walk durch eine fi
 Jeder Look ist über einen QR-Code direkt mit einer eigenen NFT-Seite verknüpft. Dort lässt sich das Outfit nicht nur ansehen, sondern theoretisch auch als **NFT erwerben – inklusive 3D-Datei**. Zusätzlich bekommt jedes Outfit sein eigenes digitales Set: ein Loop-Video, in dem das Glasmodell den Look einzeln präsentiert. Alles ist miteinander verknüpft – ein modulares, digitales Ökosystem.  
 Das soll den Style einer echten Fashionshow nachempfinden, bei dem die Mode nach der Show gekauft werden kann.
 
-![4 Clothing Designs](03.jpg)
+![Die vier digitalen Outfits auf dem brutalistischen 3D-Runway](03.jpg)
 
 ::label Mode & digitale Identität
 

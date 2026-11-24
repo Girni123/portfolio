@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Echtheitsverifikation", "Software as a Service"]
 summary: ""
 cover: cover.jpg
-cover_alt: "Person"
+cover_alt: "Finger hält einen runden NFC-Chip"
 framer_url: https://girnstein-david.framer.website/work/nfc-verification-service
 ---
 
@@ -28,7 +28,7 @@ Dieser „Tap“ öffnet sofort den Zugang zu der Produktseite, exklusiven Inhal
 
 Außerdem lassen sich Kleidungsstücke so auf ihre Echtheit überprüfen und können so als Fälschungssicher deklariert werden.
 
-![](01.jpg)
+![Ablauf in drei Schritten: Chip im Produkt scannen, Produktwebsite öffnet sich, Echtheit wird verifiziert](01.jpg)
 
 ::label Kryptografie
 
@@ -38,8 +38,8 @@ Für die technische Umsetzung setze ich auf den **NXP NTAG 424 DNA**. Im Gegensa
 
 **Der technische Prozess:** Durch die „Secure Unique NFC Message“ (SUN) generiert der Chip bei jedem Kontakt einen dynamischen, einmaligen Code, der als CMAC (Cipher-based Message Authentication Code) an die URL angehängt wird. Mein Backend-System – basierend auf **AWS Lambda und DynamoDB** – entschlüsselt diesen Wert in Echtzeit und validiert den internen Zählerstand des Chips. Nur bei mathematischer Übereinstimmung wird die Echtheit bestätigt. Dieser Schutz gegen Replay-Attacken verlagert die gesamte Sicherheitskomplexität in die Cloud, während die Interaktion für den Endnutzer maximal simpel bleibt
 
-![](02.jpg)
-![](03.jpg)
+![Smartphone wird an ein Kleidungsstück mit eingenähtem NFC-Chip gehalten](02.jpg)
+![NFC-Chip NXP NTAG 424 DNA zwischen zwei Fingern](03.jpg)
 
 ::label UX
 
@@ -53,7 +53,7 @@ Die technische Tiefe der kryptografischen Prüfung bleibt für den Nutzer vollst
 
 Diese fälschungssichere Basis ermöglicht zudem die Integration von **Web3-Assets**: Jedem physischen Artikel kann ein individueller NFT zugeordnet werden, der direkt nach der Verifizierung in das Wallet des Käufers übertragen wird. Damit schaffe ich ein neues Level an digitalem Besitz und Vertrauen am Point of Sale.
 
-![](04.jpg)
+![Architekturdiagramm: Scan, AWS-Backend, Sicherheitsprüfung und Verifizierungsseite](04.jpg)
 
 ### Tech-Stack im Überblick
 

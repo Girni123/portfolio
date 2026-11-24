@@ -11,7 +11,7 @@ portfolio: main
 tags: ["450 Teilnehmende", "Organisation Autarker Zeltstadt"]
 summary: ""
 cover: cover.jpg
-cover_alt: "Person"
+cover_alt: "Luftaufnahme der Zeltstadt des Pfadfinder-Bundeslagers"
 framer_url: https://girnstein-david.framer.website/work/pfadfinder-camp
 ---
 
@@ -37,7 +37,7 @@ Die Auswahl des geeigneten Geländes war der kritische Pfad des Projekts. In mon
 
 **Zonierung:** Genehmigung und Überwachung der Flächennutzungspläne für die einzelnen Untergruppen, um Sicherheitsabstände und effiziente Laufwege zu garantieren.
 
-![](01.jpg)
+![Luftbild: Bundeslager-Gelände zwischen Wald und Feldern](01.jpg)
 
 ::label Supply Chain
 
@@ -51,8 +51,8 @@ Die autarke Versorgung von 450 Menschen über 10 Tage erforderte eine präzise L
 
 **Sonder-Logistik:** Eigenverantwortliche Organisation von Highlights wie externen Food-Trucks und die Koordination von Transporten für dezentrale Aktivitäten.
 
-![](02.jpg)
-![](03.jpg)
+![Gestapelte Lebensmittelkisten für die Versorgung von 450 Teilnehmenden](02.jpg)
+![Lagerplatz mit Holzkonstruktion, Fahne und Jurten](03.jpg)
 
 ::label Programmentwicklung
 
@@ -78,4 +78,4 @@ Neben der Logistik lag ein Schwerpunkt auf der inhaltlichen Führung und der Sic
 
 **5 Personen** – Im strategischen Kernteam (Core Organization).
 
-![](04.jpg)
+![Schwarze Jurten und Zelte eines Teillagers auf der Wiese](04.jpg)

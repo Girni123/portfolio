@@ -445,7 +445,7 @@ def layout(site, page):
 <body class="{page.get('body_class', '')}">
 <a class="skip" href="#main">Zum Inhalt springen</a>
 <header class="header">
-  <a class="header__logo" href="/" aria-label="David Girnstein, Startseite">{img_tag('/assets/pages/logo.png', '#DAVID', eager=True, sizes='thumb')}</a>
+  <a class="header__logo" href="/" aria-label="David Girnstein, Startseite">{img_tag('/assets/pages/logo.png', 'David Girnstein', eager=True, sizes='thumb')}</a>
   <nav class="nav" aria-label="Hauptnavigation">
     <ul class="nav__list">{nav_links(site, nav_cur)}</ul>
     <a class="nav__cta" href="/contact/">Get in touch</a>

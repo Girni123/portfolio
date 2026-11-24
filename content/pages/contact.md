@@ -6,7 +6,7 @@ url: /contact/
 schema: ContactPage
 hero_title_html: "Contact<span class=\"accent\">*</span>"
 hero_image: /assets/pages/contact-hero.jpg
-hero_alt: "Porträt"
+hero_alt: ""
 ---
 
 ::contact

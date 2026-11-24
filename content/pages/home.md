@@ -7,7 +7,7 @@ url: /
 schema: ProfilePage
 hero_title: "David"
 hero_image: /assets/pages/home-hero.jpg
-hero_alt: "David Girnstein spricht mit Mikrofon auf einer Bühne"
+hero_alt: "David Girnstein spricht mit Mikrofon auf einer Bühne vor Publikum"
 tagline: "I bridge strategy, tech, design & execution"
 ---
 
@@ -35,16 +35,16 @@ Ich bilde die Brücke zwischen Organisation, Technik und Design. Mit 24 Jahren b
 ::section Worked with | 02
 
 ::: logos
-![Partner](logos/01.png)
-![Partner](logos/02.png)
-![Partner](logos/03.png)
-![Partner](logos/04.png)
-![Partner](logos/05.png)
-![Partner](logos/06.png)
-![Partner](logos/07.png)
-![Partner](logos/08.png)
-![Partner](logos/09.png)
-![Partner](logos/10.png)
+![Logo Tierpark Herborn](logos/01.png)
+![Logo Bootshaus Cologne](logos/02.png)
+![Logo S.C. Fortuna Köln](logos/03.png)
+![Logo Moodlaw](logos/04.png)
+![Logo IGS Ingenieure](logos/05.png)
+![Logo Krankenhaus Porz am Rhein](logos/06.png)
+![Logo Buju 23, Messe Erfurt](logos/07.png)
+![Logo Morgenland Festival Osnabrück](logos/08.png)
+![Logo Muydozo](logos/09.png)
+![Logo AMD Akademie Mode & Design](logos/10.png)
 :::
 :::
 

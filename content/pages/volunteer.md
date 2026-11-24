@@ -5,7 +5,7 @@ description: "Über ein Jahrzehnt Pfadfinderleitung und Hilfseinsätze in Rumän
 url: /volunteer/
 hero_title: "Volunteering"
 hero_image: /assets/pages/volunteer-hero.jpg
-hero_alt: "Volunteering"
+hero_alt: ""
 ---
 
 ::section Pfadfinder | 01
@@ -26,7 +26,7 @@ So z. B. auch das soziale Engagement, durch das ich auch über die Pfadfinder hi
 :::
 :::
 ::: split__media
-![Pfadfinder](volunteer/pfadfinder.jpg)
+![David als Pfadfinderleiter mit Hut beim Kochen über dem Feuer](volunteer/pfadfinder.jpg)
 :::
 :::
 
@@ -38,7 +38,7 @@ Eine Übersicht der Hilfsprojekte, an denen ich in den letzten Jahren beteiligt 
 ::label Rumänien · Boldesti
 
 ::: orglogo
-![Logo der Organisation](volunteer/ro-5.png)
+![Logo FeG Pfadfinder](volunteer/ro-5.png)
 :::
 
 ## Neue Fundamente für Boldesti und Pflegefamilien mit Waisenkindern
@@ -53,17 +53,17 @@ Das gesamte Dorf empfing uns mit einer außergewöhnlichen Herzlichkeit und inte
 
 ::button [Projektwebsite](https://kinder-helfen-kindern.feg.de/)
 
-![Einsatz in Boldesti](volunteer/ro-1.jpg)
-![Einsatz in Boldesti](volunteer/ro-2.jpg)
-![Einsatz in Boldesti](volunteer/ro-3.jpg)
-![Einsatz in Boldesti](volunteer/ro-4.jpg)
+![Gruppe Pfadfinder:innen in Kluft beim Einsatz in Boldesti](volunteer/ro-1.jpg)
+![Pfadfinder flechten Bewehrungsstahl für ein Fundament](volunteer/ro-2.jpg)
+![Gruppe blickt über die Berglandschaft in Rumänien](volunteer/ro-3.jpg)
+![Ausgehobene Fundamente mit Bewehrung für die neuen Häuser](volunteer/ro-4.jpg)
 :::
 
 ::: impact
 ::label Südafrika · Lighthouse
 
 ::: orglogo
-![Logo der Organisation](volunteer/za-1.png)
+![Logo Lighthouse Children's Ministry](volunteer/za-1.png)
 :::
 
 ## Reparaturen und Mitarbeit im Day Care
@@ -74,17 +74,17 @@ In diesen Einrichtungen fallen ständig komplexe Instandhaltungsarbeiten an, die
 
 Von der Erneuerung der Elektrik über das Abwasser-Management bis hin zur Instandsetzung von Spielgeräten sorgten wir dafür, dass die Infrastruktur funktionsfähig bleibt. Unser Ziel war es, durch technische Unterstützung einen Ort zu bewahren, an dem Kinder einfach nur Kind sein dürfen.
 
-![Einsatz in Südafrika](volunteer/za-2.jpg)
-![Einsatz in Südafrika](volunteer/za-3.jpg)
-![Einsatz in Südafrika](volunteer/za-4.jpg)
-![Einsatz in Südafrika](volunteer/za-5.jpg)
+![Gruppenfoto mit Kindern und Helfer:innen beim Day Care in Südafrika](volunteer/za-2.jpg)
+![Helferin hält ein Kleinkind auf dem Arm vor einem einfachen Haus](volunteer/za-3.jpg)
+![Kinder beim Day Care in Südafrika](volunteer/za-4.jpg)
+![Reparaturarbeiten auf einem Gerüst an der Fassade des Day Care Centers](volunteer/za-5.jpg)
 :::
 
 ::: impact
 ::label USA · New Orleans
 
 ::: orglogo
-![Logo der Organisation](volunteer/no-5.png)
+![Logo Verein für Soziale Dienste International e.V.](volunteer/no-5.png)
 :::
 
 ## Hilfe nach dem Hurrikan Katrina
@@ -97,17 +97,17 @@ Untergebracht waren wir in der Einrichtung „Camp Restore“, die als zentraler
 
 ::button [Camp Restore](https://camprestore.org/)
 
-![Einsatz in New Orleans](volunteer/no-1.jpg)
-![Einsatz in New Orleans](volunteer/no-2.jpg)
-![Einsatz in New Orleans](volunteer/no-3.jpg)
-![Einsatz in New Orleans](volunteer/no-4.jpg)
+![Helfer:innen setzen einen Community Garden in New Orleans instand](volunteer/no-1.jpg)
+![Renovierungsarbeiten in einem Haus mit Sturmschäden](volunteer/no-2.jpg)
+![Gruppenfoto des Helferteams in New Orleans](volunteer/no-3.jpg)
+![Essensausgabe bei der lokalen Tafel in New Orleans](volunteer/no-4.jpg)
 :::
 
 ::: impact
 ::label Namibia · Care Point
 
 ::: orglogo
-![Logo der Organisation](volunteer/na-1.png)
+![Logo Christ's Hope](volunteer/na-1.png)
 :::
 
 ## Reparaturen am Kinder-Care-Point und Bau eines neuen Spielplatzes
@@ -120,10 +120,10 @@ Zusätzlich koordinierten und bauten wir einen neuen, großflächigen Spielplatz
 
 ::button [Organisation](https://christshope.org/)
 
-![Einsatz in Namibia](volunteer/na-2.jpg)
-![Einsatz in Namibia](volunteer/na-3.jpg)
-![Einsatz in Namibia](volunteer/na-4.jpg)
-![Einsatz in Namibia](volunteer/na-5.jpg)
+![Kinder und Helfer:innen auf dem neu gebauten Spielplatz in Namibia](volunteer/na-2.jpg)
+![Wellblechhütten in Rehoboth, Namibia](volunteer/na-3.jpg)
+![Helferin mit Kindern auf einem Weg in Rehoboth](volunteer/na-4.jpg)
+![Blick über Rehoboth mit dem Care Point und Bergen im Hintergrund](volunteer/na-5.jpg)
 :::
 
 ::contact
