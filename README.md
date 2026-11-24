@@ -42,6 +42,16 @@ link: "Crosswired Website | https://..."   # optionaler Button im Header
 - **Reihenfolge:** `order:` anpassen
 - **Anderem Portfolio zuordnen:** `portfolio: [main, kreativ]`. Welches Portfolio gebaut wird, steht in `content/site.md` (`portfolio: main`). Ein zweites Portfolio ist später dieselbe Codebasis mit anderem Wert dort.
 
+## Neue Bilder
+
+Bilder normal in `assets/...` ablegen (JPG/PNG, max. ca. 1600 px breit) und danach auf dem Mac einmal ausführen:
+
+```bash
+python3 tools/optimize_images.py
+```
+
+Das erzeugt verkleinerte Versionen (480, 800 und 1200 px) in `assets/opt/`. Die Website lädt dann automatisch nur die passende Größe. Fehlen sie, funktioniert alles trotzdem, nur langsamer (`build.py` weist darauf hin).
+
 ## Textformat
 
 Normales Markdown (`**fett**`, `_kursiv_`, `[Link](url)`, `## Überschrift`, Listen) plus ein paar Bausteine:

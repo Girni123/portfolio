@@ -13,7 +13,7 @@ hero_alt: "David Girnstein"
 
 ::: split
 ::: split__media
-![David Girnstein lächelt](about/portrait.png)
+![David Girnstein lächelt](about/portrait.jpg)
 :::
 ::: split__text
 ::label David Girnstein
@@ -131,11 +131,11 @@ Analyse von Markenwert, Exklusivitäts-Strategien und High-End Consumer Experien
 :::
 
 ::: strip
-![](about/g1.png)
-![](about/g2.png)
-![](about/g3.png)
-![](about/g4.png)
-![](about/g5.png)
+![](about/g1.jpg)
+![](about/g2.jpg)
+![](about/g3.jpg)
+![](about/g4.jpg)
+![](about/g5.jpg)
 :::
 
 ::contact

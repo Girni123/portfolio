@@ -104,8 +104,31 @@ def image_size(path):
     return None
 
 
-def img_tag(src, alt='', cls='', eager=False, sizes=None):
+# Verkleinerte Varianten (erzeugt von tools/optimize_images.py) liegen in assets/opt/
+OPT_WIDTHS = (480, 800, 1200)  # das Original (max. 1600 px) ist die größte Stufe
+OPT_DIRS = ('assets/work', 'assets/pages', 'assets/video')
+MISSING_OPT = set()
+
+SIZES = {
+    'hero': '100vw',
+    'card': '(max-width: 680px) 92vw, (max-width: 1300px) 46vw, 600px',
+    'content': '(max-width: 1100px) 92vw, 1000px',
+    'half': '(max-width: 600px) 92vw, 500px',
+    'small': '(max-width: 600px) 46vw, 330px',
+    'thumb': '200px',
+}
+
+
+def opt_path(src, w):
+    """/assets/work/x/cover.jpg -> /assets/opt/work/x/cover-960.jpg (PNG bleibt PNG)"""
+    stem, ext = os.path.splitext(src[len('/assets/'):])
+    ext = '.png' if ext.lower() == '.png' else '.jpg'
+    return f'/assets/opt/{stem}-{w}{ext}'
+
+
+def img_tag(src, alt='', cls='', eager=False, sizes='content'):
     attrs = [f'src="{esc(src)}"', f'alt="{esc(alt)}"']
+    dim = None
     if src.startswith('/'):
         dim = image_size(os.path.join(ROOT, src.lstrip('/')))
         if dim:
@@ -114,7 +137,21 @@ def img_tag(src, alt='', cls='', eager=False, sizes=None):
         attrs.append(f'class="{cls}"')
     attrs.append('loading="eager" fetchpriority="high"' if eager else 'loading="lazy"')
     attrs.append('decoding="async"')
-    return '<img ' + ' '.join(attrs) + '>'
+    tag = '<img ' + ' '.join(attrs) + '>'
+    # verkleinerte Varianten nutzen, wenn vorhanden
+    if dim and src.startswith(tuple('/' + d + '/' for d in OPT_DIRS)) and src.lower().endswith(('.jpg', '.jpeg', '.png')):
+        wanted = [w for w in OPT_WIDTHS if w < dim[0] * 0.9]
+        srcset = []
+        for w in wanted:
+            p = opt_path(src, w)
+            if os.path.exists(os.path.join(ROOT, p.lstrip('/'))):
+                srcset.append(f'{p} {w}w')
+        if wanted and len(srcset) < len(wanted):
+            MISSING_OPT.add(src)
+        if srcset:
+            srcset.append(f'{src} {dim[0]}w')
+            return tag.replace('<img ', f'<img srcset="{", ".join(srcset)}" sizes="{SIZES.get(sizes, sizes)}" ', 1)
+    return tag
 
 
 # --------------------------------------------------------------------------
@@ -177,7 +214,16 @@ def render_blocks(lines, ctx):
             return
         imgs = [IMG_RE.match(l.strip()) for l in para]
         if all(imgs):
-            figs = ''.join(img_tag(resolve(m.group(2), ctx.base), m.group(1)) for m in imgs)
+            cont = getattr(ctx, 'container', '')
+            if cont in ('logos', 'cert', 'orglogo'):
+                size = 'thumb'
+            elif cont in ('strip',) or len(imgs) >= 3:
+                size = 'small'
+            elif cont.startswith('split') or len(imgs) == 2:
+                size = 'half'
+            else:
+                size = 'content'
+            figs = ''.join(img_tag(resolve(m.group(2), ctx.base), m.group(1), sizes=size) for m in imgs)
             out.append(f'<div class="gallery reveal n{len(imgs)}">{figs}</div>')
         else:
             out.append('<p>' + inline('\n'.join(para), ctx.base) + '</p>')
@@ -202,7 +248,10 @@ def render_blocks(lines, ctx):
                         break
                 inner.append(lines[j])
                 j += 1
+            outer_cont = getattr(ctx, 'container', '')
+            ctx.container = names[0] if names else ''
             out.append(f'<div class="{" ".join(esc(n) for n in names)}">' + render_blocks(inner, ctx) + '</div>')
+            ctx.container = outer_cont
             i = j + 1
             continue
         if not s:
@@ -256,7 +305,7 @@ def directive(s, ctx):
         vid = esc(arg.split()[0])
         return (f'<div class="video reveal" data-yt="{vid}">'
                 f'<button type="button" class="video__play" aria-label="Video abspielen (lädt YouTube)">'
-                + img_tag(f'/assets/video/{vid}.jpg', '') +
+                + img_tag(f'/assets/video/{vid}.jpg', '', sizes='content') +
                 f'<span class="video__icon" aria-hidden="true"></span>'
                 f'<span class="video__note">Mit Klick wird das Video von YouTube geladen.</span></button></div>')
     if name == 'section':
@@ -312,7 +361,7 @@ def project_card(p):
             f'data-focus="{esc(p.get("focus", ""))}" data-cursor="Ansehen">'
             f'<span class="card__bar"><span class="card__title">{esc(p["title"])}</span>'
             f'<span class="card__year">{esc(p.get("year", ""))}</span></span>'
-            f'<span class="card__img">{img_tag(cover, p.get("cover_alt", p["title"]))}{badge}</span>'
+            f'<span class="card__img">{img_tag(cover, p.get("cover_alt", p["title"]), sizes="card")}{badge}</span>'
             f'<span class="card__tags"><span class="pill pill--cat">{esc(CATEGORY_LABELS.get(p.get("category"), ""))}</span>{tags}</span>'
             f'</a>')
 
@@ -396,7 +445,7 @@ def layout(site, page):
 <body class="{page.get('body_class', '')}">
 <a class="skip" href="#main">Zum Inhalt springen</a>
 <header class="header">
-  <a class="header__logo" href="/" aria-label="David Girnstein, Startseite">{img_tag('/assets/pages/logo.png', '#DAVID', eager=True)}</a>
+  <a class="header__logo" href="/" aria-label="David Girnstein, Startseite">{img_tag('/assets/pages/logo.png', '#DAVID', eager=True, sizes='thumb')}</a>
   <nav class="nav" aria-label="Hauptnavigation">
     <ul class="nav__list">{nav_links(site, nav_cur)}</ul>
     <a class="nav__cta" href="/contact/">Get in touch</a>
@@ -435,7 +484,7 @@ def layout(site, page):
 
 
 def hero(title, image, alt='', kicker='', sub='', extra='', cls=''):
-    img = img_tag(image, alt, cls='hero__img', eager=True) if image else ''
+    img = img_tag(image, alt, cls='hero__img', eager=True, sizes='hero') if image else ''
     return f'''<section class="hero {cls}">
   {img}
   <div class="hero__shade"></div>
@@ -652,6 +701,8 @@ def build():
         entries.append(f'  <url><loc>{esc(site["url"] + url)}</loc>' + (f'<lastmod>{lm}</lastmod>' if lm else '') + '</url>')
     open(os.path.join(OUT, 'sitemap.xml'), 'w').write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(entries) + '\n</urlset>\n')
+    if MISSING_OPT:
+        print(f'Hinweis: {len(MISSING_OPT)} Bilder ohne kleine Versionen. Auf dem Mac ausführen: python3 tools/optimize_images.py')
     print(f'Fertig: {len(projects)} Projekte, {len(posts)} Blogposts, {len(sitemap)} URLs in der Sitemap -> {os.path.relpath(OUT)}/')
 
 
@@ -659,7 +710,7 @@ def home_hero(site, p):
     socials = (f'<a href="{esc(site["instagram"])}" target="_blank" rel="noopener">Instagram</a>'
                f'<a href="{esc(site["linkedin"])}" target="_blank" rel="noopener">LinkedIn</a>')
     return f'''<section class="hero hero--home">
-  {img_tag(p['hero_image'], p.get('hero_alt', ''), cls='hero__img', eager=True)}
+  {img_tag(p['hero_image'], p.get('hero_alt', ''), cls='hero__img', eager=True, sizes='hero')}
   <div class="hero__shade"></div>
   <div class="hero__inner">
     <div class="hero__kicker">©{date.today().year}</div>
