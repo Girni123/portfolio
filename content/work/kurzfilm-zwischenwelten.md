@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Aufnahmeleitung", "Producing"]
 summary: "Ein filmischer Reality-Check zwischen Paranoia, Beziehung und psychischem Ausnahmezustand."
 cover: cover.jpg
-cover_alt: "Zwei Personen"
+cover_alt: "Filmszene aus Zwischenwelten: zwei Personen im Gespräch bei Nacht"
 framer_url: https://girnstein-david.framer.website/work/kurzfilm-zwichenwelten
 ---
 
@@ -25,7 +25,7 @@ Die Story: eine junge Frau verliert zwischen beruflichem Druck, Beziehung und ps
 
 Nora ist beruflich unterwegs. Ein spontanes Treffen, ein Abend voller Nähe – und ein Morgen voller Zweifel. Was folgt, ist ein innerer Absturz: Die Medikamente sind leer, das Gedankenkarussell dreht durch. Zwischen Verdrängung, Verlangen und Verzweiflung verliert sie sich in einer paranoiden Zwischenwelt, in der Realität und Vorstellung verschwimmen. Die Story nutzt subjektive Perspektiven, Lichtwechsel und inszenierte Brüche, um psychische Instabilität filmisch erlebbar zu machen.
 
-![Gruppenfoto Crew](01.jpg)
+![Gruppenfoto der Crew von Zwischenwelten](01.jpg)
 
 ::label Organisation & Produktion
 
@@ -37,8 +37,8 @@ Wann können wir im Restaurant aufbauen, wann im Hotel und wie machen wir das oh
 
 Ein echter Stresstest. Aber auch ein unfassbar lehrreicher Einstieg in echtes Producing.
 
-![Frauen schauen sich an](02.jpg)
-![Leerer Blick in die Kamera](03.jpg)
+![Filmszene: Frau liegt im Hotelbett und schaut zur Seite](02.jpg)
+![Filmszene: Die Protagonistin blickt leer in die Kamera](03.jpg)
 
 ::label Lernen & Loslegen
 
@@ -48,4 +48,4 @@ Ja, das Projekt war chaotisch. Ja, das war unser erstes komplett eigens betreute
 
 _Zwischenwelten_ war unser Startpunkt – mit all seinen Ecken, Kanten und einem klaren Ziel. Aller Anfang ist schwer und wir haben alle sehr viel dazulernen können.
 
-![Begegnung zweier Schauspielender](04.jpg)
+![Filmszene: Begegnung zweier Figuren im Hotelflur](04.jpg)

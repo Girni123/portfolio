@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Producing", "Kamera"]
 summary: "Zwischen Geigen, Oud und Darbuka – ein Projekt über Begegnung, Musik und mediale Vermittlung."
 cover: cover.jpg
-cover_alt: "Women in Interview"
+cover_alt: "Interview bei der Morgenland Akademie mit der Frage: Wie würdest du die Gemeinschaft hier beschreiben?"
 link: "Morgenland Website | https://www.morgenland-festival.com/akademie.html"
 framer_url: https://girnstein-david.framer.website/work/morgenland-akademie
 ---
@@ -37,11 +37,11 @@ Zusammen mit meinem Team haben wir 3 Tage zusammen mit in dem Camp verbracht und
 In einem Studio nahe Osnabrück leben und proben junge Musiker:innen aus verschiedenen Ländern zehn Tage lang gemeinsam. Sie lernen voneinander, tauschen sich aus, machen Musik – von morgens bis abends. Unsere Aufgabe war es, diese Energie einzufangen und in zwei Filmen zu übersetzen: einen für zukünftige Teilnehmende, einen für potenzielle Fördernde.  
 Zudem kommt noch die Produktion von Social Media Clips, Interviews und Co, um das Gesamtpaket abzurunden und auf allen Kanälen zu präsentieren, welche Gemeinschaft sich hier entwickelt.
 
-![Gruppe sitzt auf einem teppisch](01.jpg)
-![Interview](02.jpg)
+![Musiker:innen der Morgenland Akademie sitzen beim Essen auf einem Teppich, von oben fotografiert](01.jpg)
+![Interview mit einem Teilnehmer im Proberaum](02.jpg)
 
 ::label Musik & Miteinander einfangen
 
 Musik war überall. Und genau das wollten wir spürbar machen. In unserer filmischen Umsetzung kombinierten wir emotionale Momente, persönliche O-Töne und atmosphärische Bilder. Dabei lag der Fokus auf Nähe statt Perfektion – wir wollten zeigen, wie viel Verbindung in Improvisation, Gespräch und gemeinsamem Musizieren steckt. Die entstandenen Videos funktionieren als Einladung: zum Mitmachen, Mitfühlen, Mitfördern.
 
-![Gruppe beim Konzert](03.jpg)
+![Ensemble der Morgenland Akademie beim Abschlusskonzert auf der Bühne](03.jpg)

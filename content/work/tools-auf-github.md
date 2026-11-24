@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Sammlung meiner Tools", "AI CO Developped"]
 summary: ""
 cover: cover.jpg
-cover_alt: "Person"
+cover_alt: "Titelgrafik: GitHub – Projekte, Tools, Softwares"
 link: "Mein GitHub Profil | https://github.com/davidgirnstein"
 framer_url: https://girnstein-david.framer.website/work/tools-auf-github
 ---
@@ -39,7 +39,7 @@ Verpackungsdesigns lassen sich ohne komplizierte 3D-Software direkt als interakt
 **Druckdaten-Größencheck** _(REWE)_  
 Im Marketing müssen Druckdaten regelmäßig auf ihre Wirkung im Regal geprüft werden – sind alle Informationen groß genug und lesbar? Am Laptop zoomt man einfach ran, aber wie groß ist es in Wirklichkeit wirklich? Dieses Tool wird unter anderem im REWE Marketing genutzt, um genau diese Frage zu beantworten. → **Kann unten ausprobiert werden.**
 
-![](01.jpg)
+![Collage mehrerer selbst gebauter Web-Tools](01.jpg)
 
 Druckdaten-Größencheck (Print Calibration Tool)
 
@@ -56,8 +56,8 @@ Auch der Druck-Export funktioniert im echten 1:1-Maßstab, selbst wenn die Origi
 
 > [https://davidgirnstein.github.io/screen-to-print-anchoring/](https://davidgirnstein.github.io/screen-to-print-anchoring/)
 
-![](02.jpg)
-![](03.jpg)
+![Screenshot des Druckdaten-Größenchecks mit einem Verpackungsentwurf](02.jpg)
+![Screenshot des 3D Produkt- und Packaging-Viewers mit einem Getränkekarton](03.jpg)
 
 ::label 3D Produkt-/Packaging Viewer
 

@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Projekt Lead", "68 Leuten zu Koordinieren"]
 summary: "Die Interaktion zwischen physischer Mode und Modernen Medien. Wie kann dort simbiosen geschaffen werden und zukunft nue gestaltet werden."
 cover: cover.jpg
-cover_alt: "Crosswired Cover"
+cover_alt: "Plakat der Crosswired Fashionshow im Bootshaus mit Models in experimentellen Looks"
 link: "Crosswired Website | https://readymag.website/u3354010235/crosswired/"
 framer_url: https://girnstein-david.framer.website/work/crosswired
 ---
@@ -40,7 +40,7 @@ Die größte Herausforderung war die Koordination der enormen Komplexität. Als 
 
 ::youtube dP7vFhMxZFA
 
-![verschieden Outfits der Show](01.jpg)
+![Alle Outfits der Crosswired-Show nebeneinander auf dem Laufsteg](01.jpg)
 
 ::label Konzept & Besonderheiten
 
@@ -60,8 +60,8 @@ Basierend auf meiner Bachelor-Thesis habe ich untersucht, wie physische Produkte
 
 **Digital Fashion:** Präsentation von Kleidung, die mittels Clo3D und KI komplett digital simuliert wurde.
 
-![model vor der leinwand](02.jpg)
-![close-Up Model](03.jpg)
+![Model mit Sonnenbrille läuft vor der Leinwand mit Designer-Projektion über den Runway](02.jpg)
+![Interview mit einem Kamerateam nach der Crosswired-Show](03.jpg)
 
 ::label Herausforderungen
 
@@ -75,7 +75,7 @@ Crosswired bewies, dass sich innovative Visionen durch strukturiertes Management
 
 **Proof of Concept:** Das Event markierte für mich den Startpunkt als Digital Builder – ein Beweis, dass ich komplexe Projekte End-to-End besetzen und erfolgreich zum Release führen kann.
 
-![snapshots der Show](04.jpg)
+![Bildstreifen mit Momenten aus der Crosswired-Show](04.jpg)
 
 ::label Ergebnis, Wirkung, Feedback
 
@@ -91,4 +91,4 @@ Die Show war roh und rund zugleich – so, wie kreative Prozesse oft sind, wenn 
 
 ein persönlicher Beweis dafür, dass sich Visionen umsetzen kann – auch dann (oder grade weil), sie außerhalb des Gewöhnlichen liegen.
 
-![Crosswired Backstage](05.jpg)
+![Backstage bei Crosswired: Maske mit Spiegeln, Licht und Models](05.jpg)

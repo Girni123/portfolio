@@ -284,3 +284,4 @@ html:not(.js) .filter { display: none; }
   .card__img img, .btn__icon, .video__play img { transition: none; }
   .cursor { display: none; }
 }
+

@@ -6,14 +6,14 @@ url: /about/
 schema: AboutPage
 hero_title_html: "Lerne mich<br>kennen"
 hero_image: /assets/pages/about-hero.jpg
-hero_alt: "David Girnstein"
+hero_alt: ""
 ---
 
 ::section That's me | 01
 
 ::: split
 ::: split__media
-![David Girnstein lächelt](about/portrait.png)
+![David Girnstein lächelt, Porträt im grünen Pullover](about/portrait.jpg)
 :::
 ::: split__text
 ::label David Girnstein
@@ -98,44 +98,44 @@ Fundierte Ausbildung in Betriebswirtschaftslehre (BWL), Marketing-Grundlagen und
 
 ::: certs
 ::: cert
-![Google](about/cert-google.png)
+![Google-Logo](about/cert-google.png)
 ### Google Project Management
 Professional Certificate mit Fokus auf agiles Projektmanagement, Scrum-Methodik und Stakeholder-Kommunikation über den gesamten Projektlebenszyklus.
 
 [Kurs-Nachweis](https://www.coursera.org/account/accomplishments/specialization/X41O1YOVNHVW)
 :::
 ::: cert
-![](about/cert-volunteer.svg)
+![Symbol für Volunteer Working](about/cert-volunteer.svg)
 ### Volunteer Working
 Planung, Durchführung und anschließende Teilnahme an diversen Hilfseinsätzen in Ländern wie Rumänien, Namibia und New Orleans.
 
 [Meine Ehrenämter](/volunteer/)
 :::
 ::: cert
-![HubSpot Academy](about/cert-hubspot.png)
+![Logo der HubSpot Academy](about/cert-hubspot.png)
 ### Inbound Marketing Course
 Zertifizierung für kundenorientierte Marketing-Strategien, Lead-Generierung und die Optimierung digitaler Conversion-Funnel.
 
 [Kurs-Nachweis](https://app-eu1.hubspot.com/academy/25616023/award-share/1028124/InboundMarketingCertification/achievement-preview)
 :::
 ::: cert
-![Pioneer Lab](about/cert-pioneer.png)
+![Logo von Pioneer Lab](about/cert-pioneer.png)
 ### Start-up Course – Pioneer Lab
 Intensivkurs zu unternehmerischem Denken, Geschäftsmodell-Entwicklung und der Skalierung von innovativen Produktideen.
 :::
 ::: cert
-![Luxury Management](about/cert-luxury.png)
+![Logo Luxury Management](about/cert-luxury.png)
 ### Luxury Management Foundation
 Analyse von Markenwert, Exklusivitäts-Strategien und High-End Consumer Experiences im globalen Marktumfeld.
 :::
 :::
 
 ::: strip
-![](about/g1.png)
-![](about/g2.png)
-![](about/g3.png)
-![](about/g4.png)
-![](about/g5.png)
+![David in Pfadfinderkluft mit Hut macht ein Spiegel-Selfie](about/g1.jpg)
+![David im Ledermantel mit gelbem Schal](about/g2.jpg)
+![David mit Cap und Strickpullover](about/g3.jpg)
+![David im schwarzen Anzug mit Weinglas](about/g4.jpg)
+![David in weißem Top und Blazer](about/g5.jpg)
 :::
 
 ::contact

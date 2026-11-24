@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Programm Organisation", "3000 Gäste"]
 summary: "Ein Festival, 4000 Menschen, eine 14 m LED-Wand – und ganz viel kreative Verantwortung."
 cover: cover.jpg
-cover_alt: "Paradox Peace Cover"
+cover_alt: "Festivalplakat Buju 23 mit dem Motto Paradox Peace, Messe Erfurt"
 framer_url: https://girnstein-david.framer.website/work/buju-festival
 ---
 
@@ -29,7 +29,7 @@ Bevor die erste Kamera lief, der erste Mensch auf dem Gelände ist und alles auf
 
 **Dezentrale Event-Module:** Konzeption und Planung von speziellen Programm-Segmenten, darunter auch koordinationsintensive Veranstaltungen im Stadtgebiet von Erfurt.
 
-![](01.jpg)
+![Volle Messehalle beim Buju Festival mit Bühne und LED-Wand](01.jpg)
 
 ::label Grossformat denken
 
@@ -41,8 +41,8 @@ Das Herzstück der Halle war eine **14 x 7 Meter große LED-Leinwand**. Meine Au
 
 **Technisches Feingefühl:** Entwicklung von Inhalten, die auf einer 100 Quadratmeter großen Fläche funktionieren und auch aus 30 Metern Entfernung ihre emotionale Wirkung entfalten.
 
-![Bühne](02.jpg)
-![Leinwandinhalte](03.jpg)
+![Band auf der Bühne vor der 14 Meter breiten LED-Leinwand](02.jpg)
+![Publikum mit erhobenen Händen vor der Bühne, Schwarz-Weiß](03.jpg)
 
 ::label Erfahrung
 
@@ -60,7 +60,7 @@ Um das Gemeinschaftsgefühl der 4.000 Gäste zu stärken, produzierten wir ein �
 
 Dieses Projekt hat meine Fähigkeiten im **Schnittstellenmanagement zwischen Programmplanung und technischer Ausführung** massiv geschärft. Ich habe gelernt, wie man komplexe Themenkomplexe für ein großes Publikum aufbereitet, Stakeholder (Speaker/Technik) koordiniert und unter extremem Zeitdruck qualitativ hochwertige Medien-Produkte liefert.
 
-![Bühne mit Inhalt](04.jpg)
+![Bühne mit Paradox-Peace-Visuals auf der LED-Leinwand](04.jpg)
 
 ## Kennzahlen-Check:
 

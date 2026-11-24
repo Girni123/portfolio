@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Produktion", "Kurzfilm"]
 summary: "Ein Kurzfilm mit großer Bühne: Sechs Drehtage, über 20 Crewmitglieder, Theater, Straßen, Nachtaufnahmen – und eine Geschichte, die berührt."
 cover: cover.jpg
-cover_alt: "filmset"
+cover_alt: "Filmset von Revue im Theater: Kamera, Filmklappe und Crew"
 framer_url: https://girnstein-david.framer.website/work/revue
 ---
 
@@ -29,7 +29,7 @@ Als Mitglied des vierköpfigen Produktionsteams war ich maßgeblich an der opera
 
 **Supply Chain am Set:** Sicherstellung der gesamten Set-Logistik, vom Catering-Management bis hin zur rechtzeitigen Bereitstellung von technischem Equipment an wechselnden Locations.
 
-![man in in front of camera](01.jpg)
+![Schauspieler vor der Kamera am Set von Revue](01.jpg)
 
 ::label Herrausforderungen
 
@@ -45,8 +45,8 @@ Die Qualität einer Produktion zeigt sich, wenn Pläne scheitern. Während des D
 
 **Problem-Solving:** Ob technische Sonderwünsche der Kamera-Department oder wetterbedingte Anpassungen bei Außendrehs – ich sorgte dafür, dass die Regie sich auf die kreative Arbeit konzentrieren konnte, während im Hintergrund die operativen Fäden zusammenliefen.
 
-![Drag in front of a camera](02.jpg)
-![two drags smiling](03.jpg)
+![Dragqueen posiert auf der Theatertreppe vor Kamera und Licht](02.jpg)
+![Zwei Dragqueens lächeln in der Theatergarderobe](03.jpg)
 
 ::label Organisation & Verantwortung
 
@@ -60,7 +60,7 @@ Wir wechselten mehrfach die Location – von Theaterbühnen über Außensets. Al
 
 **Multitasking:** Gleichzeitige Steuerung von bis zu fünf parallelen Absprachen, um den nächsten Location-Wechsel vorzubereiten, während die aktuelle Szene noch im Kasten landete. Diese Erfahrung hat meine Fähigkeit geschärft, auch in chaotischen Umgebungen absolute Struktur zu bewahren.
 
-![Make-up corner](04.jpg)
+![Maske am Set: Schauspieler:innen werden geschminkt](04.jpg)
 
 ::label Facts
 
@@ -74,4 +74,4 @@ Wir wechselten mehrfach die Location – von Theaterbühnen über Außensets. Al
 
 **Krisen-Proof:** Erfolgreiche Neubesetzung von Schlüsselpositionen innerhalb von 48 Stunden im laufenden Betrieb.
 
-![Drag performing](05.jpg)
+![Dragqueen performt im Scheinwerferlicht auf der Bühne](05.jpg)

@@ -11,7 +11,7 @@ portfolio: main
 tags: ["App Development", "MacOS"]
 summary: ""
 cover: cover.jpg
-cover_alt: "Person"
+cover_alt: "App-Icon von Office Shrimp: ein orangefarbener Shrimp"
 link: "Office Shrimp | Waitlist | https://office-shrimp.girnstein.studio"
 framer_url: https://girnstein-david.framer.website/work/office-shrimp
 ---
@@ -26,7 +26,7 @@ Das Ziel war es, ein Tool zu schaffen, das nicht wie ein medizinischer Wecker ne
 
 Dadurch ist der kleine Shrimp entstanden, ein kleines süßes Tier, und wer kann diesen großen Augen schon widerstehen?
 
-![](01.jpg)
+![Meet Shrimp – Your little Mac Companion, Illustration des Shrimps](01.jpg)
 
 ::label Gamification
 
@@ -40,8 +40,8 @@ Kombiniert mit einem hochwertigen "Deep Sea"-Interface im Dark Mode und smarten 
 
 Durch die XP kann dein kleiner Shrimp auf der Karriereleiter weiter nach oben Kletter und wenn du dich immer an den Shrimp hältst kann er sogar zu CEO heranwachsen.
 
-![](02.jpg)
-![](03.jpg)
+![Office-Shrimp-Fenster mit Fortschrittsringen für Haltung, Weitsicht, Trinken und Blinzeln](02.jpg)
+![Einstellungen von Office Shrimp auf dem macOS-Desktop](03.jpg)
 
 ::label Tech Stack
 

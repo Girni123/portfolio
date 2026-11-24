@@ -7,7 +7,7 @@ url: /work/
 schema: CollectionPage
 hero_title: "My Work"
 hero_image: /assets/pages/work-hero.jpg
-hero_alt: "Arbeitsplatz mit Kamera"
+hero_alt: ""
 ---
 
 ::label Alle Projekte

@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Aufnahmeleitung", "Fashionshow"]
 summary: "Eine Welt der Modedesigner, junge Designer:innen präsentieren ihre ersten Kollektionen bei der AMD Stage 24."
 cover: cover.jpg
-cover_alt: "Fashionshow Cover"
+cover_alt: "Collage zur AMD Stage 2024 mit Model im Mantel und AMD-Logo"
 framer_url: https://girnstein-david.framer.website/work/amd-stage2024
 ---
 
@@ -37,8 +37,8 @@ Absprachen mussten spontan angepasst, Kamera-Setups in schnell umgebaut werden. 
 
 Und genau das war der Reiz: Situationen lesen, schnell reagieren, den Überblick behalten – und trotzdem kreative Lösungen finden.
 
-![AMD Logo](01.jpg)
-![Woman looking Into The Camera](02.jpg)
+![Logo der AMD Akademie Mode & Design](01.jpg)
+![Zwei Stylistinnen richten das Outfit eines Models vor weißem Hintergrund](02.jpg)
 
 ::label Final
 
@@ -50,7 +50,7 @@ Zum Glück wurde die Show zweimal aufgeführt – das gab uns Raum, uns zwischen
 
 Am Ende stand ein Plan, der saß – und ein Team, das wusste, was zu tun ist, um jede Kollektion im richtigen Moment zu erwischen.
 
-![Group of 4 models](03.jpg)
+![Vier Models in Denim-Looks auf dem Laufsteg der AMD Stage](03.jpg)
 
 ::label Endprodukt
 

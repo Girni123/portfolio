@@ -11,7 +11,7 @@ portfolio: main
 tags: ["Produktionsplanung", "Fashion Shooting"]
 summary: "Sechs Looks, ein Shooting, ein Film – und zwei Tage voller Ideen. Eine Kollektion über verzerrte Selbstbilder, echte Emotionen – und eine Produktion, die zwischen Mode, Film und Organisation alles vereint."
 cover: cover.jpg
-cover_alt: "6 Models stehen nebeneinandr"
+cover_alt: "Sechs Models in schwarzen, voluminösen Looks der Kollektion Broken Mirror, darüber das Logo des Cristóbal Balenciaga Museoa"
 link: "Balenciaga Ausstellungsseite | https://www.cristobalbalenciagamuseoa.com/en/learn/fashion-school/transmissions/2022-25/jasmina-nicolosi.html"
 framer_url: https://girnstein-david.framer.website/work/broken-mirror
 ---
@@ -34,7 +34,7 @@ Die Kollektion entstand für einen Wettbewerb von Balenciaga selbst, wo die Desi
 
 ::youtube 0pnVEQjRZIU
 
-![Ausstellung im Museum in Spanien](01.jpg)
+![Ausstellung der Kollektion Broken Mirror im Cristóbal-Balenciaga-Museum in Spanien](01.jpg)
 
 ::label Das Shooting
 
@@ -46,8 +46,8 @@ Die Kollektion entstand für einen Wettbewerb von Balenciaga selbst, wo die Desi
 
 Ein Studio, drei Fotograf:innen, eine Make-up-Artistin, sechs Models und sechs individuelle Set-Designs an einem einzigen Tag. Um dieses Pensum zu bewältigen, fungierte ich als Operations Lead. Ich plante die Taktung im Vorfeld (Set-Aufbau, Maske, Outfitwechsel) und steuerte den Ablauf am Set dynamisch. Durch kontinuierliches Monitoring der Timings („Du bist gleich dran, ab in die Maske“, „Setwechsel in 10 Minuten“) hielt ich dem kreativen Team den Rücken frei. Das Ziel: Kreatives Chaos zulassen, aber in strukturierte, zeiteffiziente Bahnen lenken.
 
-![Model standing](02.jpg)
-![Model sitting](03.jpg)
+![Schwarz-Weiß-Porträt eines Models im voluminösen schwarzen Outfit](02.jpg)
+![Model sitzt im schwarzen Look auf einem Stuhl, umgeben von Kerzenleuchtern und Blumen](03.jpg)
 
 ::label Der Videodreh
 
@@ -59,7 +59,7 @@ Ich koordinierte die Crew, sorgte für den reibungslosen Übergang zwischen den 
 
 Eine Frau schminkt sich, fühlt sich unwohl, flieht, sieht sich im Spiegel – und erkennt sich nicht wieder. Die Jacke im Spiegel ist anders, brutaler, fremder. Sie hört Stimmen, zweifelt, schreit. Bis sie den Spiegel zerschlägt – und beginnt, sich selbst zu akzeptieren. Die Geschichte wird ohne Worte erzählt, allein durch Bewegung, Kleidung und Atmosphäre.
 
-![six models sitting together](04.jpg)
+![Fünf Models der Kollektion Broken Mirror posieren gemeinsam im Studio](04.jpg)
 
 ::label Organisation & Verantwortung
 
@@ -73,4 +73,4 @@ Eine Frau schminkt sich, fühlt sich unwohl, flieht, sieht sich im Spiegel – u
 
 **Set-Aufnahmeleitung (Operations):** Krisenmanagement bei Verzögerungen und die reibungslose Koordination paralleler Workflows (Maske, Setbau, Shooting).
 
-![Modebilder](05.jpg)
+![Zwei Kampagnenbilder: Models in Broken-Mirror-Looks an einem Tisch mit Kerzenleuchter](05.jpg)
