@@ -111,10 +111,10 @@ MISSING_OPT = set()
 
 SIZES = {
     'hero': '100vw',
-    'card': '(max-width: 680px) 92vw, (max-width: 1300px) 46vw, 600px',
-    'content': '(max-width: 1100px) 92vw, 1000px',
-    'half': '(max-width: 600px) 92vw, 500px',
-    'small': '(max-width: 600px) 46vw, 330px',
+    'card': '(max-width: 680px) 92vw, (max-width: 1100px) 46vw, (max-width: 1700px) 31vw, 23vw',
+    'content': '92vw',
+    'half': '(max-width: 600px) 92vw, 46vw',
+    'small': '(max-width: 600px) 46vw, 23vw',
     'thumb': '200px',
 }
 
@@ -637,7 +637,7 @@ def build():
             kicker += f'<span class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2"/></svg>{esc(p["year"])}</span>'
         kicker += f'<span class="chip chip--cat">{esc(CATEGORY_LABELS.get(p.get("category"), ""))} · {esc(p.get("focus", ""))}</span>'
         others = [x for x in projects if x is not p]
-        more = (others[n:] + others[:n])[:2]
+        more = (others[n:] + others[:n])[:3]
         body = hero(esc(p['title']), cover, p.get('cover_alt', ''), kicker=kicker, sub=esc(p.get('summary', '')),
                     extra=f'<div class="hero__actions">{actions}</div>', cls='hero--project') + \
             f'<article class="page prose">{md(p["_body"], ctx)}</article>' + \
@@ -698,12 +698,27 @@ def build():
     entries = []
     for url, src in sorted(sitemap, key=lambda x: (x[0] != '/', x[0])):
         lm = git_date(src)
-        entries.append(f'  <url><loc>{esc(site["url"] + url)}</loc>' + (f'<lastmod>{lm}</lastmod>' if lm else '') + '</url>')
+        imgs = ''.join(f'<image:image><image:loc>{esc(site["url"] + i)}</image:loc></image:image>'
+                       for i in page_images(url))
+        entries.append(f'  <url><loc>{esc(site["url"] + url)}</loc>' + (f'<lastmod>{lm}</lastmod>' if lm else '') + imgs + '</url>')
     open(os.path.join(OUT, 'sitemap.xml'), 'w').write(
-        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(entries) + '\n</urlset>\n')
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' + '\n'.join(entries) + '\n</urlset>\n')
     if MISSING_OPT:
         print(f'Hinweis: {len(MISSING_OPT)} Bilder ohne kleine Versionen. Auf dem Mac ausführen: python3 tools/optimize_images.py')
     print(f'Fertig: {len(projects)} Projekte, {len(posts)} Blogposts, {len(sitemap)} URLs in der Sitemap -> {os.path.relpath(OUT)}/')
+
+
+def page_images(url):
+    """Inhaltsbilder einer gebauten Seite für die Bilder-Sitemap (ohne Logo, Video-Vorschauen und Projektkarten anderer Seiten)"""
+    html_text = open(os.path.join(OUT, url.strip('/'), 'index.html'), encoding='utf-8').read()
+    html_text = re.sub(r'<section class="more">.*?</section>', '', html_text, flags=re.S)
+    seen = []
+    for src in re.findall(r'<img [^>]*?src="(/assets/[^"]+)"', html_text):
+        if src.endswith('/logo.png') or '/assets/video/' in src or '/assets/opt/' in src or src in seen:
+            continue
+        seen.append(src)
+    return seen[:1000]
 
 
 def home_hero(site, p):
